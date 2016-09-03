@@ -2,10 +2,12 @@
 layout: default
 title: About
 ---
+Matt Freitas-Stavola is a Software Engineer. He graduated from St. John's University in December of 2014 with a BS in Computer Science. Matt has worked for <a href="https://lifars.com/" target="_blank">Lifars</a> and <a href="https://www.edlio.com/" target="_blank">Edlio</a>.
 
-This is where you would but a short bio, and/or a description of your site. It also serves as an example of how to set up a standalone page. For example:
+His primary areas of interest are programming languages, artificial intelligence, games, and F/OSS. 
 
-<img src="/images/shakespeare.png" class="right" />
-**William Shakespeare** (26 April 1564 – 23 April 1616) was an English poet and playwright, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon". His extant works, including some collaborations, consist of about 38 plays, 154 sonnets, two long narrative poems, and a few other verses, the authorship of some of which is uncertain. His plays have been translated into every major living language and are performed more often than those of any other playwright.
+For work, he mostly uses Java and MySQL, but has worked in many languages, frameworks, and environments. 
 
-Shakespeare was born and brought up in Stratford-upon-Avon. At the age of 18, he married Anne Hathaway—no, not *that* Anne Hathaway—with whom he had three children.
+For pleasure, he enjoys programming in <a href="https://kotlinlang.org/" target="_blank">Kotlin</a> and <a href="https://www.rust-lang.org/en-US/" target="_blank">Rust</a>, and is currently following the development of <a href="https://www.youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO" target="_blank">Jai</a>.
+
+During his free time, Matt enjoys drinking good beer, reading good manga, and playing good games. He also has a taste for <a href="https://www.reddit.com/r/AbandonedPorn/" target="_blank">abandoned places</a>. 
