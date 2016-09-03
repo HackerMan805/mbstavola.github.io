@@ -1,165 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Matthew Stavola</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
+---
+layout: default
+title: Solar Theme
+---
 
-	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-	<!--script src="js/less-1.3.3.min.js"></script-->
-	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-	
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+{% for post in paginator.posts %}
 
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
+	<article class="post">
 
-  <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="img/favicon.png">
-  
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-</head>
+		{% if post.external-url %}
+			<h1>
+				<a href="{{ post.external-url }}">{{ post.title }}</a>
+				<a class="anchor" href="{{ post.url }}"><i class="icon-anchor"></i></a>
+			</h1>
+		{% else %}
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		{% endif %}
 
-<body>
-<a name="about"></a>
-<div class="container">
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Matthew Stavola</a>
-				</div>
-				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="#about">About</a>
-						</li>
-						<li>
-							<a href="#skills">Skills</a>
-						</li>
-						<li>
-							<a href="#resume">Résumé</a>
-						</li>
-						<li>
-							<a href="#links">Links</a>
-						</li>
-					</ul>
-				</div>
-				
-			</nav>
-			<br><br><br><br>
-	<div class="row clearfix">
-		<div class="col-md-6 column">
-			<img class="img-rounded mobi" alt="140x140" src="img/pictures/family512.jpg">
-		</div>
-		<div class="col-md-6 column">
-			<h2>
-				About
-			</h2>
-			<p>
-				My name is Matthew Stavola (or Matthew Freitas, depending which parent you ask) and I'm a programmer by trade.
-				<br><br>
-				I graduated from St. John's University in 2015 with a BS in Computer Science. For the 2014-2015 term I was also the president of the Computer Science Society, although my term was cut short because I graduated early.
-				<br><br>
-				I really love learning new things and messing around with them, which is why hackathons are so important to me! Everyone should have the experience of working on a cool project with their friends through the weekend.
-				<br><br>
-				Currently, I am employed by <a href="https://lifars.com/">LIFARS</a> as the Lead Software Engineer. I get to work with F/OSS and in a bunch of different languages! We also are developing an Android app and some other cool stuff.
-				<br><br>
-				During my free time I'm usually either playing games or making them, but I also enjoy reading manga and drinking great beer.
-			</p>
-		</div>
+		<div class="post-content">{{ post.content }}</div>
+
+	</article>
+
+{% endfor %}
+
+
+
+{% if paginator.total_pages > 1 %}
+	<div class="postnavigation">
+
+		{% if paginator.previous_page %}
+			{% if paginator.page == 2 %}
+				<a class="prev left" href="/">&larr; Newer</a>
+			{% else %}
+				<a class="prev left" href="/page{{paginator.previous_page}}/">&larr; Newer</a>
+			{% endif %}
+		{% else %}
+			<span class="nope left">&larr; Newer</span>
+		{% endif %}
+
+		<span class="pages">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+		{% if paginator.next_page %}
+			<a class="next right" href="/page{{paginator.next_page}}/">Older &rarr;</a>
+		{% else %}
+			<span class="nope right">Older &rarr;</span>
+		{% endif %}
+
 	</div>
-	<br><a name="skills"></a><hr><br>
-	<div class="row clearfix">
-		<div class="col-md-6 column">
-			<h2>
-				Skills
-			</h2>
-			<p>
-				I'm pretty solid in Java and love developing Android apps.
-				<br><br>
-				I've worked with these languages before, but I'd need a refresher:
-				<ul>
-					<li>C++</li>
-					<li>PHP</li>
-					<li>Python</li>
-					<li>SQL</li>
-				</ul>
-				Some other things I have experience in:
-				<ul>	
-					<li>Android</li>
-					<li>Unity</li>
-					<li>Git</li>
-					<li>GNU/Linux</li>
-				</ul>
-			</p>
-		</div>
-		<div class="col-md-6 column">
-			<img class="img-rounded mobi" alt="140x140" src="img/pictures/roof512.jpg">
-		</div>
-	</div>
-	<br><a name="resume"></a><hr><br>
-	<div class="row clearfix">
-		<div class="col-md-6 column">
-			<img class="img-rounded mobi" alt="140x140" src="img/pictures/hockey512.jpg">
-		</div>
-		<div class="col-md-6 column">
-			<h2>
-				Résumé
-			</h2>
-			<p>
-				<a href="https://mega.nz/#!BE8U1DTC!r35E8gs624bdIcsgZK8-sHdootX89l3GcsoOhCryxIA">
-				PDF
-				</a>
-				<br>
-				<a href="https://mega.co.nz/#!FckETDjI!RcOCMSMAemUd3urTZyom-6ua9VNszDmm1GUogrpPlUk">
-				ODT
-				</a>
-				<br><br>
-				My résumé was written in LaTeX, which is absolutely amazing! Pandoc was used for conversion (though some minor changes had to be made).
-				<br><br>
-				PDF is the preferred file format as it is styled.
-			</p>
-		</div>
-	</div>
-	<br><hr><br>
-	<a name="links"></a>
-	<div class="row clearfix">
-		<div class="col-md-4 column">
-			<p>
-				<a href="https://github.com/mbStavola">
-					<img class="mobi" src= "img/icons/github/github-256.png" />
-				</a>
-			</p>
-		</div>
-		<div class="col-md-4 column">
-			<p>
-				<a href="https://www.linkedin.com/profile/view?id=127679518">
-					<img class="mobi" src= "img/icons/linkedin/linkedin-256.png" />
-				</a>
-			</p>
-		</div>
-		<div class="col-md-4 column">
-			<p>
-				<a href="https://twitter.com/mbStavola">
-					<img class="mobi" src= "img/icons/twitter/twitter-256.png" />
-				</a>
-			</p>
-		</div>
-	</div>
-</div>
-</body>
-</html>
+{% endif %}
