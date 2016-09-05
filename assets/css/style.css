@@ -57,7 +57,7 @@ sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
 
 code {
-    font: 0.85em "Fira Code", Monaco, Courier, Monospace;
+    font: 0.85em FiraCode, Monaco, Courier, Monospace;
 }
 
 blockquote {
@@ -280,3 +280,15 @@ img.center {
 .icon-anchor {
 	font-size: 65%;
 }
+
+/*** Code Font ***/
+@font-face {
+    font-family: 'FiraCode';
+    src: url('../fonts/FiraCode-Regular.eot');
+    src: url('../fonts/FiraCode-Regular.eot#iefix') format('embedded-opentype'),
+         url('../fonts/FiraCode-Regular.woff') format('woff'),
+         url('../fonts/FiraCode-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
