@@ -1,0 +1,9 @@
+name: Matt Stavola 
+url: http://stavola.xyz
+description: Programming, beer, manga, and other things you don't care about.
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
