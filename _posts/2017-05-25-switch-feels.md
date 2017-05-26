@@ -27,104 +27,129 @@ The choice in switches resulted from a desire to have a good standard of compari
 
 Anyway, here are some of my thoughts on each. It's not really meant to be a potential buyers guide, nor an indepth review of each switch. Just how my dumb fingers felt while pressing them!
 
-### Cherry MX Blue:
 <div id="cmblue" />
+
+### Cherry MX Blue:
 This is generally my go-to switch. You just can't go wrong with that super tactile, clicky goodness!<br>
 
-### Cherry MX Brown:
 <div id="cmbrown" />
+
+### Cherry MX Brown:
 Browns are the blues for people who want to keep their job. You still feel a slight bump, but don't get that deafening clack.<br>
 
-### Cherry MX Black
 <div id="cmblack" />
+
+### Cherry MX Black
 I'm not really a fan of linear switches, but I do appreciate how blacks feel. The stiffness means that doesn't feel mushy like a red.<br>
 
-### Cherry MX Red
 <div id="cmred" />
+
+### Cherry MX Red
 Honestly, do not enjoy reds at all. It feels too "empty" for me. The lack of stiffness and no feedback makes it very hard for my fingers to actually register that they're pressing a key.<br>
 
-### Cherry MX Clear
 <div id="cmclear" />
+
+### Cherry MX Clear
 Wow! These feel *really* good. Putting weight behind the brown makes a good switch **great**. I'd like to try a full typing setup with them though.<br>
 
-### Cherry MX Green
 <div id="cmgreen" />
+
+### Cherry MX Green
 Okay, I've never tried a green before this and I'm really upset that I haven't. Of the Cherry MX switches I've tried, this is now my favorite. It's simply a better blue.<br>
 
-### Cherry MX Silent Black
 <div id="cmsblack" />
+
+### Cherry MX Silent Black
 I heard this switch was interesting, but I really don't see it. It feels like a slightly mushier black.<br>
 
-### Gateron Black
 <div id="gblack" />
+
+### Gateron Black
 Obviously similar to the Cherry MX Black. This feels smooth and it has some resistance. I actually kinda like it.<br>
 
-### Gateron Red
 <div id="gred" />
+
+### Gateron Red
 Yeah, I don't like this switch at ALL. The same problem as the red, but it somehow feels even less present.<br>
 
-### Gateron Green
 <div id="ggreen" />
+
+### Gateron Green
 Huh! A green with an even sharper bump. Even better! But by God is it loud.<br>
 
-### Gateron Blue
 <div id="gblack" />
+
+### Gateron Blue
 I'm really digging the bump on these Gaterons. Nicer than Cherry MX blue, but I still prefer greens.<br>
 
-### Gateron Brown
 <div id="gbrown" />
+
+### Gateron Brown
 Huh, I thought I'd like this more than the Cherry MX browns, but I actually don't. It feels more "damp" to me, if that makes sense?<br>
 
-### Kailh Bronze
 <div id="kbronze" />
+
+### Kailh Bronze
 I got this because I was told it had a two-way tactile bump. It's really gimmicky and I don't enjoy pressing it. This is probably the loudest switch by far.<br>
 
-### MOD-L Tactile
 <div id="mltactile" />
+
+### MOD-L Tactile
 Similar to a brown, but the tactile bump feels "all at once." I really don't have a better way to describe it!<br>
 
-### MOD-M Tactile:
 <div id="mmtactile" />
+
+### MOD-M Tactile:
 Identical to the light version, but slightly stiffer. Quite pleasant!<br>
 
-### MOD-H Tactile
 <div id="mhtactile" />
+
+### MOD-H Tactile
 Same as the previous two, but even stiffer. Pretty much a clear.<br>
 
-### MOD-L Linear
 <div id="mllinear" />
+
+### MOD-L Linear
 As you might have guessed, I really don't enjoy it.<br>
 
-### MOD-M Linear
 <div id="mmlinear" />
+
+### MOD-M Linear
 A little stiffer, a little better! I could see myself using these with only a few grumbles.<br>
 
-### MOD-H Linear
 <div id="mhlinear" />
+
+### MOD-H Linear
 Muuuuuch better. Not my ideal, but it could do!<br>
 
-### Zealio 62g
 <div id="z62" />
+
+### Zealio 62g
 I'm a **big** fan of this distinct bump. If I had to pick between this and similar switches, I'd definitely lean towards this.<br>
 
-### Zealio 65g
 <div id="z65" />
+
+### Zealio 65g
 Wow, this is simply pleasant. It has just enough give to make it welcoming to a touch, but enough resistance to make you really feel that actuation.<br>
 
-### Zealio 67g
 <div id="z67" />
+
+### Zealio 67g
 Believe it or not, stiffer isn't necessarily better. But I'm not saying it's bad either-- I like this only a little less than the 65g.<br>
 
-### Gatistotle 80g Spring
 <div id="g80" />
+
+### Gatistotle 80g Spring
 You like clacks? This is it. It feels very good to actuate, with a very responsive feel and loud click.<br>
 
-### Invyr Panda
 <div id="ipanda" />
+
+### Invyr Panda
 Eh, wasn't really feeling this one. One of the better linear switches, but still a far cry from some of the other switches in this list.<br>
 
-### Jailhouse Cherry Blue
 <div id="jcblue" />
+
+### Jailhouse Cherry Blue
 Alright, so this took me completely by surprise. I honestly downright *love* everything about how this feels.<br>
 <br>
 
